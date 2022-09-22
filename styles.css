@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(92, 88, 158);
+    color: #f3f3f3;
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+#title, #discription{
+    text-align: center;
+    margin: 1em auto;
+    font-weight: 400;
+    line-height: 1.2;
+}
+form{
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 70vw;
+    margin: 0 auto;
+    /* padding-right: 0 2em; */
+    max-width: 600px;
+    min-width: 350px;
+    font-size: 1.2em;
+    padding: 2.5rem;
+}
+fieldset{
+    border: none;
+    padding: 2rem 1rem;
+}
+.details{
+    width: 100%;
+    padding: 10px 0;
+    margin: 0.5rem 0;
+}
+label,select,textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+ 
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #37af65;
+    border: none;
+    min-width: 300px;
+    color: #fff;
+    border-radius: 0.3rem;
+}

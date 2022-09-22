@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="discription">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name<input class="details" id="name" type="text" placeholder="Enter your name" required/></label>
+            <label id="email-label">Email<input class="details" id="email" type="email" placeholder="Enter your Email"  required/></label>
+            <label id="number-label">Age(optional)<input class="details" id="age" type="number" min="10" max="99" placeholder="Age" required/></label>
+            
+            <label>Which option best describes your current role?
+                <select class="details" id="dropdown" name="role">
+                    <option value="">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full time job</option>
+                    <option value="3">Full time learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+       
+            <label>Would you recommend freeCodeCamp to a friend?<p>
+            <label for="definitely"><input id="definitely" type="radio" name="recommend" class="inline"/> Definitely</label>
+            <label for="maybe"><input id="maybe" type="radio" name="recommend" class="inline"/> Maybe</label>
+            <label for="notsure"><input id="notsure" type="radio" name="recommend"  class="inline" /> Not sure</label>
+        
+            <label>What would you like to see improved? (Check all that apply)</label>
+            <label><input type="checkbox" value="1"/> Front-end Project</label>
+            <label><input type="checkbox" value="2"/> Back-end Project</label>
+            <label><input type="checkbox" value="3"/> Graphics Project</label>
+            <label><input type="checkbox" value="4"/> Python Project</label>
+            <label><input type="checkbox" value="5"/> PHP Project</label>
+            <label>Any comments or suggestions?<textarea rows="5" cols="50" placeholder="Enter your comment here..."></textarea></label>
+            <input type="submit"/>
+        </fieldset>
+    </form>
+  </body>
+  </html>
